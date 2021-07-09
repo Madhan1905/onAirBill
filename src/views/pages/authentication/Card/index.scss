@@ -1,0 +1,67 @@
+.gst-card {
+    height: 300px;
+    @media only screen and (min-width: 768px) {
+    width: 250px;
+    }
+    background-color: #215ba5;// #0c3e80;
+    color: white;
+    align-items: center;
+    padding: 20px 40px 40px 40px; 
+    text-align: center;
+}
+.info-card {
+    height: 350px;
+    background-color: #215ba5;// #0c3e80;
+    color: white;
+    align-items: center;
+    padding: 20px 40px 40px 40px; 
+    text-align: center;
+}
+.img-icon {
+    width:100px;
+}
+
+.file-img {
+    height: 100px;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content {
+    font-size: 12px;
+}
+
+.gst {
+    @media only screen and (min-width: 768px) {
+    position: absolute;
+    top: -81px;
+    right: 370px;
+    }
+}
+
+.product {
+    @media only screen and (min-width: 768px) {
+    position: absolute;
+    top: 240px;
+    right: 370px;
+    }
+}
+
+.staff {
+    @media only screen and (min-width: 768px) {
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    }
+}
+
+.payment {
+    @media only screen and (min-width: 768px) {
+    position: absolute;
+    right: 80px;
+    top: 340px;
+    }
+}

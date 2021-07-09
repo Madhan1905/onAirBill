@@ -1,0 +1,261 @@
+#old-dashboard {
+.dashboard {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+    .menu-button {
+    .btn-primary {
+        font-size: 20px;
+        padding-left:40px;
+        padding-right:40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #e5f8f3 !important;
+        color: #182834;
+        border: 0;
+        margin:20px;
+    }
+}
+    .account-button {
+        .btn-outline-info {
+        border: 2px solid #53bb8c !important;
+        color: #53bb8c !important;
+        background-color: #ffffff;
+        font-size: 20px;
+        padding-left:40px;
+        padding-right:40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+    }
+    @media (max-width:767px) {
+        .btn-outline-info {
+            display: block;
+            text-align: center;
+
+        }
+        .menu-button {
+            .btn-primary {
+            display: block;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0px;
+            }
+        }
+    }
+}
+
+.screen-stocks {
+    margin-left: 290px;
+    margin-top: 20px;
+    margin-right: 40px;
+    .card-title {
+      border-bottom: 1px solid #d6d5d3;
+      background-color: #f6f3ed;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  .card-style {
+    border: 1px solid #d6d5d3;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .green-text {
+    color: #8ccabe;
+  }
+  Form, Table {
+    font-size: 14px;
+  }
+  Form.Control {
+    font-size: 14px;
+  }
+  th {
+    font-size: 11px;
+    background-color: #f0f0f0;
+  }
+  .table{
+    table-layout: fixed;
+  }
+  .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #f9f9f9;
+  }
+  .col-style {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+   }
+   .button-font {
+   .btn-group-sm>.btn, .btn-sm {
+    font-size: 12px !important;
+   }
+   }
+   .down-arrow {
+   .button-style .icon-style {
+    margin-right: 0px;
+   }
+   }
+   .print-button {
+   .btn-group-sm>.btn, .btn-sm {
+     padding-left: 30px;
+     padding-right: 30px;
+   }
+   }
+}
+
+.login-modal {
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 40% !important; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+  .link {
+    color: rgb(43, 106, 224);
+    cursor: pointer;
+  }
+
+  .login-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.drop-custom {
+  cursor: pointer;
+
+  li:hover {
+    background-color: grey;
+  }
+}
+
+.loading-modal {
+  display: block !important;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.spinning-modal-body {
+  justify-content: center;
+}
+
+.table-input {
+  width: 100%;
+}
+
+}
+
+.add-sales-invoice {
+border: 2px solid;
+border-radius: 10px;
+}

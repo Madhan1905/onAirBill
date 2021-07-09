@@ -1,0 +1,29 @@
+body {
+  background-color: #f9f6f0;
+  color: #61594f;
+  height: 100%;
+}
+
+.app-screen {
+  background-color: #f9f6f0;
+}
+
+.content {
+  position:absolute;
+  top: 150px;
+  left:0px;
+  right:0px;
+  bottom:0px;  
+  overflow-y: auto;
+}​
+
+html {
+  height: 100%;
+}
+
+.side-nav-container {
+  top: 10vh;
+  height: 90vh;
+  position: absolute;
+}
+
